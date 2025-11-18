@@ -1,0 +1,74 @@
+# -----------------------------
+# Python cache & artifacts
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual environment
+# -----------------------------
+venv/
+ENV/
+env/
+.venv/
+
+# -----------------------------
+# Project Data & Large Files
+# -----------------------------
+# Kaggle dataset folder
+data/
+data/*
+
+# Image dataset (too large for GitHub)
+images/
+images/*
+
+# Sample images uploaded by user
+uploads/
+uploads/*
+
+# Trend analysis output images
+*.png
+!README_images/        # (Optional: allow dedicated sample images)
+
+# -----------------------------
+# Model / Embedding Files
+# -----------------------------
+embeddings.pkl
+filenames.pkl
+metadata_features.npy
+meta_index_map.pkl
+meta_map.pkl
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/
+.streamlit/secrets.toml
+
+# -----------------------------
+# Log files
+# -----------------------------
+*.log
+logs/
+logs/*
+
+# -----------------------------
+# OS Junk Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# Python Environment Config
+# -----------------------------
+pyvenv.cfg
